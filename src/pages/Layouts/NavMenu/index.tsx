@@ -73,14 +73,6 @@ export const NavMenuOnPc = () => {
           <Divider type="vertical" className="divider-bg" />
         </>
       )}
-      {/* Docs */}
-      <Link to="/docs" className="menu-item doc">
-        <Space align="center">
-          <Icon component={DocsSvg} style={{ fontSize: 18 }} />
-          <span>{t('common.doc')}</span>
-        </Space>
-      </Link>
-      <Divider type="vertical" className="divider-bg" />
       {isClient && (
         <div className="menu-item debug-type">
           <ConfigProvider theme={navDropdownConfig}>
@@ -126,40 +118,8 @@ export const NavMenuOnPc = () => {
               </Space>
             </Dropdown>
           </ConfigProvider>
-          <Divider type="vertical" className="divider-bg" />
         </div>
       )}
-      {/* i18n */}
-      <div className="menu-item lang">
-        <ConfigProvider theme={navDropdownConfig}>
-          <Dropdown
-            arrow
-            menu={{
-              items: langMenus,
-              onClick: ({ key }) => {
-                setLang(key as langType);
-                i18n.changeLanguage(key);
-              },
-            }}
-          >
-            <Space align="center">
-              <Icon component={I18nSvg} style={{ fontSize: 18 }} />
-              <span>{t('common.lang')}</span>
-            </Space>
-          </Dropdown>
-        </ConfigProvider>
-      </div>
-      <Divider type="vertical" className="divider-bg" />
-      <a
-        href={import.meta.env.VITE_GITHUB_REPO}
-        target="_blank"
-        className="menu-item"
-      >
-        <Space>
-          <GithubOutlined style={{ fontSize: 16 }} />
-          <span>GitHub</span>
-        </Space>
-      </a>
     </div>
   );
 };

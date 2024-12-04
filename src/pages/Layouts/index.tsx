@@ -30,7 +30,7 @@ export const Layouts = () => {
               <Link to="/">
                 <LogoSvg className="logo-icon" />
                 <Title level={4} className="logo-name">
-                  PageSpy
+                  CDSS Debug Portal
                   {isClient && (
                     <span className="page-spy-version">v{version}</span>
                   )}
