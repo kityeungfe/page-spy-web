@@ -52,6 +52,7 @@
 [![Deploy with Baota][bt-deploy]][bt-deploy-url]
 
 <a href="https://www.producthunt.com/posts/pagespy?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pagespy" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=429852&theme=light" alt="PageSpy - Remote&#0032;debugging&#0032;as&#0032;seamless&#0032;as&#0032;local&#0032;debugging&#0046; | Product Hunt" height="36" /></a> <a href="https://news.ycombinator.com/item?id=38679798" target="_blank"><img src="https://hackernews-badge.vercel.app/api?id=38679798" alt="PageSpy - Remote&#0032;debugging&#0032;as&#0032;seamless&#0032;as&#0032;local&#0032;debugging&#0046; | Hacker News" height="36" /></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fkityeungfe%2Fpage-spy-web?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkityeungfe%2Fpage-spy-web.svg?type=shield"/></a>
 
 English | [中文](./README_ZH.md) | [日本語](./README_JA.md)
 
@@ -130,3 +131,7 @@ Join us on our [Official Discord Server](https://discord.gg/ERPpNZkX)!
 ## Roadmap
 
 Click to see the [Roadmap](https://github.com/orgs/HuolalaTech/projects/1).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkityeungfe%2Fpage-spy-web.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkityeungfe%2Fpage-spy-web?ref=badge_large)
